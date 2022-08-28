@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\Data.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Classes\EffectSprite\Effect.cpp">
+      <Filter>EffectSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EffectSprite\EffectSprite.cpp">
+      <Filter>EffectSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EffectSprite\LightEffect.cpp">
+      <Filter>EffectSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Level\MapManager.cpp">
+      <Filter>Scene\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Menu\MSelectLevelScene.cpp">
+      <Filter>Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Menu\MMainScene.cpp">
+      <Filter>Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Popup\PausePopup.cpp">
+      <Filter>Scene\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Popup\Popup.cpp">
+      <Filter>Scene\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Popup\ExitPopup.cpp">
+      <Filter>Scene\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\BaseObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\DynamicObjects\CollapsePlatform.cpp">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\DynamicObjects\Collectible.cpp">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\DynamicObjects\MovingPlatform.cpp">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\AnimationObjects\Door.cpp">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\AnimationObjects\Goal.cpp">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\AnimationObjects\Lever.cpp">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\StaticObjects\BackGround.cpp">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\StaticObjects\Floor.cpp">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\StaticObjects\Pedestal.cpp">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\StaticObjects\Wall.cpp">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\MovingObjects\MainCharacter.cpp">
+      <Filter>GameObjects\MovingObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\MovingObjects\MonsterChase.cpp">
+      <Filter>GameObjects\MovingObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\DynamicObjects\DynamicObject.cpp">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\MovingObjects\MovingObject.cpp">
+      <Filter>GameObjects\MovingObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\AnimationObjects\AnimationObject.cpp">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Core\Control\CustomControl.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\Tutorial.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Core\Control\SneakyButton.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Core\Control\SneakyButtonSkinnedBase.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Core\Control\SneakyJoystick.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Core\Control\SneakyJoystickSkinnedBase.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Menu\InGameScene.cpp">
+      <Filter>Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Menu\EndScene.cpp">
+      <Filter>Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Menu\AboutScene.cpp">
+      <Filter>Scene\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\Config.h" />
+    <ClInclude Include="..\Classes\Data.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\Classes\EffectSprite\Effect.h">
+      <Filter>EffectSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EffectSprite\EffectSprite.h">
+      <Filter>EffectSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EffectSprite\LightEffect.h">
+      <Filter>EffectSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Level\MapManager.h">
+      <Filter>Scene\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Menu\MSelectLevelScene.h">
+      <Filter>Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Menu\MMainScene.h">
+      <Filter>Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Popup\PausePopup.h">
+      <Filter>Scene\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Popup\Popup.h">
+      <Filter>Scene\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Popup\ExitPopup.h">
+      <Filter>Scene\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\BaseObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\DynamicObjects\CollapsePlatform.h">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\DynamicObjects\Collectible.h">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\DynamicObjects\MovingPlatform.h">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\AnimationObjects\Door.h">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\AnimationObjects\Goal.h">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\AnimationObjects\Lever.h">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\StaticObjects\BackGround.h">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\StaticObjects\Floor.h">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\StaticObjects\Pedestal.h">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\StaticObjects\Wall.h">
+      <Filter>GameObjects\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\MovingObjects\MainCharacter.h">
+      <Filter>GameObjects\MovingObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\MovingObjects\MonsterChase.h">
+      <Filter>GameObjects\MovingObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\DynamicObjects\DynamicObject.h">
+      <Filter>GameObjects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\MovingObjects\MovingObject.h">
+      <Filter>GameObjects\MovingObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\AnimationObjects\AnimationObject.h">
+      <Filter>GameObjects\AnimationObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Core\Control\CustomControl.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\Tutorial.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Core\Control\SneakyButton.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Core\Control\SneakyButtonSkinnedBase.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Core\Control\SneakyJoystick.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Core\Control\SneakyJoystickSkinnedBase.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Menu\InGameScene.h">
+      <Filter>Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Menu\EndScene.h">
+      <Filter>Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Menu\AboutScene.h">
+      <Filter>Scene\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EffectSprite">
+      <UniqueIdentifier>{b5221dcf-fea1-48a3-b5c8-cc6e761f03ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{0ece42c8-93e9-40ad-99e3-ab4574401dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Level">
+      <UniqueIdentifier>{606bdfe2-05f6-462a-a20e-98655a20f2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Menu">
+      <UniqueIdentifier>{bca25924-05d3-40d9-bc6e-1c2c7eabed22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Popup">
+      <UniqueIdentifier>{a8796835-5d0c-45e6-a8ba-681b902f7f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{847eea04-9922-4531-855e-4f572f6e984a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{13ceb4ce-a039-4309-99c7-6ed84d48e055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{788b154a-9ade-4e08-a48c-8551b2616a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Control">
+      <UniqueIdentifier>{4d168528-27ec-4917-af2e-a8b3ba83bded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\AnimationObjects">
+      <UniqueIdentifier>{ad8b8ae4-b26d-4b67-b2fa-1e885e7b02c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\DynamicObjects">
+      <UniqueIdentifier>{b41b46c8-0f24-4702-8b9d-6f2a18dfdb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\StaticObjects">
+      <UniqueIdentifier>{d515c0b6-4881-494f-a2af-7e5b6a3d9374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MovingObjects">
+      <UniqueIdentifier>{01035343-18d1-49bf-9b1a-3768e2cbd915}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\pointlight.frag">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
